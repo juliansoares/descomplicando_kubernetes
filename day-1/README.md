@@ -8,7 +8,7 @@ Configurar e executar um cluster Kubernetes local usando o Kind para fins de tes
 
 ## Conteúdo
 
-- Arquivos de configuração do cluster (`kind-config.yaml`)
+- Arquivos de configuração do cluster (`pod.yaml`)
 - Comandos úteis para gerenciamento do cluster
 - Scripts de automação (se houver)
 - Notas e observações importantes
@@ -22,7 +22,8 @@ Configurar e executar um cluster Kubernetes local usando o Kind para fins de tes
 
 ```bash
 # Criar cluster com arquivo de config
-kind create cluster --name meu-cluster --config kind-config.yaml
+
+kind create cluster --config kind-cluster.yaml --name giropops
 
 # Listar clusters Kind
 kind get clusters
