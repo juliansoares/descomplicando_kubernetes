@@ -25,8 +25,8 @@ Configurar e executar um cluster Kubernetes local usando o Kind para fins de tes
 
 kind create cluster --config kind-cluster.yaml --name giropops
 
-# Listar clusters Kind
-kind get clusters
+# Listar Nodes
+kubectl get nodes
 
 # Deletar cluster
-kind delete cluster --name meu-cluster
+kind delete cluster --name giropops
