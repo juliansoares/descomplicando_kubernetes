@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: giropops-nginx
-  name: giropops-nginx2
+  name: giropops-nginx
 spec:
   containers:
   - image: nginx
