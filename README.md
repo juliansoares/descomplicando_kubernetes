@@ -1,1 +1,0 @@
-Descomplicando Kubernetes Linuxtips
